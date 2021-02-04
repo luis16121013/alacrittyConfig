@@ -1,0 +1,39 @@
+import:
+  - ~/.config/alacritty/themes/dracula.yml
+  #- ~/.config/alacritty/themes/Gruvbox-Dark.yml
+  #- ~/.config/alacritty/themes/Gruvbox-Light.yml
+  #- ~/.config/alacritty/themes/Solarized-Light.yml
+  #- ~/.config/alacritty/themes/Monokai-Light.yml
+
+#background_opacity: 0.95
+background_opacity: 1.0
+font:
+  normal:
+    #family: Mononoki NF
+    #family: Victor Mono
+    family: Fira Code 
+    style: Regular 
+  bold:
+    #family: Victor Mono
+    #family: Mononoki NF
+    family: Fira Code
+    style:  Medium 
+  italic:
+    #family: Victor Mono
+    #family: Fira Code
+    #family: Mononoki NF
+    family: Fira Code
+    style: Italic
+  bold_italic:
+    #family: Mononoki NF
+    family: Fira Code
+    #family: Victor Mono
+    style: Bold Italic
+  size: 10.5
+  offset:
+    x: 0
+    y: 0
+  glyph_offset:
+    x: 0
+    y: 0
+draw_bold_text_with_bright_colors: true
