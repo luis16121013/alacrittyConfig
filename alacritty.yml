@@ -1,32 +1,36 @@
-import:
-  - ~/.config/alacritty/themes/dracula.yml
-  #- ~/.config/alacritty/themes/Gruvbox-Dark.yml
-  #- ~/.config/alacritty/themes/Gruvbox-Light.yml
-  #- ~/.config/alacritty/themes/Solarized-Light.yml
-  #- ~/.config/alacritty/themes/Monokai-Light.yml
+#import: ~/.config/alacritty/themes/Dracula.yml
 
-#background_opacity: 0.95
-background_opacity: 1.0
+#- ~/.config/alacritty/themes/dracula.yml
+#- ~/.config/alacritty/themes/Gruvbox-Dark.yml
+#- ~/.config/alacritty/themes/Gruvbox-Light.yml
+#- ~/.config/alacritty/themes/Solarized-Light.yml
+#- ~/.config/alacritty/themes/Monokai-Light.yml
+background_opacity: 0.95
+#background_opacity: 1.0
 font:
   normal:
-    #family: Mononoki NF
+    family: Mononoki NF
     #family: Victor Mono
-    family: Fira Code 
-    style: Regular 
+    #family: Fira Code 
+    #family: FiraSans
+    style: Regular
   bold:
     #family: Victor Mono
-    #family: Mononoki NF
-    family: Fira Code
-    style:  Medium 
+    family: Mononoki NF
+    #family: Fira Code
+    #family: FiraSans
+    style: Medium
   italic:
     #family: Victor Mono
     #family: Fira Code
-    #family: Mononoki NF
-    family: Fira Code
+    family: Mononoki NF
+    #family: Fira Code
+    #family: FiraSans
     style: Italic
   bold_italic:
-    #family: Mononoki NF
-    family: Fira Code
+    family: Mononoki NF
+    #family: Fira Code
+    #family: FiraSans
     #family: Victor Mono
     style: Bold Italic
   size: 10.5
@@ -37,3 +41,30 @@ font:
     x: 0
     y: 0
 draw_bold_text_with_bright_colors: true
+colors:
+  # Default colors
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black: '#000000'
+    red: '#ff5555'
+    green: '#50fa7b'
+    yellow: '#f1fa8c'
+    blue: '#caa9fa'
+    magenta: '#ff79c6'
+    cyan: '#8be9fd'
+    white: '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black: '#575b70'
+    red: '#ff6e67'
+    green: '#5af78e'
+    yellow: '#f4f99d'
+    blue: '#caa9fa'
+    magenta: '#ff92d0'
+    cyan: '#9aedfe'
+    white: '#e6e6e6'
