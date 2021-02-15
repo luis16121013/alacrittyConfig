@@ -10,26 +10,30 @@ background_opacity: 0.95
 #background_opacity: 1.0
 font:
   normal:
-    family: Mononoki NF
+    family: Mononoki Nerd Font
+    #family: Mononoki NF
     #family: Victor Mono
     #family: Fira Code 
     #family: FiraSans
     style: Regular
   bold:
+    family: Mononoki Nerd Font
     #family: Victor Mono
-    family: Mononoki NF
+    #family: Mononoki NF
     #family: Fira Code
     #family: FiraSans
     style: Medium
   italic:
+    family: Mononoki Nerd Font
     #family: Victor Mono
     #family: Fira Code
-    family: Mononoki NF
+    #family: Mononoki NF
     #family: Fira Code
     #family: FiraSans
     style: Italic
   bold_italic:
-    family: Mononoki NF
+    family: Mononoki Nerd Font
+    #family: Mononoki NF
     #family: Fira Code
     #family: FiraSans
     #family: Victor Mono
