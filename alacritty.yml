@@ -1,75 +1,29 @@
-import: 
-  - ~/.config/alacritty/themes/Dracula.yml
-
-#- ~/.config/alacritty/themes/dracula.yml
-#- ~/.config/alacritty/themes/Gruvbox-Dark.yml
-#- ~/.config/alacritty/themes/Gruvbox-Light.yml
-#- ~/.config/alacritty/themes/Solarized-Light.yml
-#- ~/.config/alacritty/themes/Monokai-Light.yml
-background_opacity: 0.95
-#background_opacity: 1.0
+#background_opacity: 0.98
 font:
   normal:
-    family: Mononoki Nerd Font
-    #family: Mononoki NF
-    #family: Victor Mono
-    #family: Fira Code 
-    #family: FiraSans
+    family: JetBrains Mono
     style: Regular
   bold:
-    family: Mononoki Nerd Font
-    #family: Victor Mono
-    #family: Mononoki NF
-    #family: Fira Code
-    #family: FiraSans
+    family: JetBrains Mono
     style: Medium
   italic:
-    family: Mononoki Nerd Font
-    #family: Victor Mono
-    #family: Fira Code
-    #family: Mononoki NF
-    #family: Fira Code
-    #family: FiraSans
+    family: JetBrains Mono
     style: Italic
   bold_italic:
-    family: Mononoki Nerd Font
-    #family: Mononoki NF
-    #family: Fira Code
-    #family: FiraSans
-    #family: Victor Mono
+    family: JetBrains Mono
     style: Bold Italic
-  size: 10.5
+  size: 11
   offset:
     x: 0
     y: 0
   glyph_offset:
     x: 0
     y: 0
-draw_bold_text_with_bright_colors: true
-colors:
-  # Default colors
-  primary:
-    background: '#282a36'
-    foreground: '#f8f8f2'
 
-  # Normal colors
-  normal:
-    black: '#000000'
-    red: '#ff5555'
-    green: '#50fa7b'
-    yellow: '#f1fa8c'
-    blue: '#caa9fa'
-    magenta: '#ff79c6'
-    cyan: '#8be9fd'
-    white: '#bfbfbf'
+window:
+  dimensions:
+    columns: 0
+    lines: 0
 
-  # Bright colors
-  bright:
-    black: '#575b70'
-    red: '#ff6e67'
-    green: '#5af78e'
-    yellow: '#f4f99d'
-    blue: '#caa9fa'
-    magenta: '#ff92d0'
-    cyan: '#9aedfe'
-    white: '#e6e6e6'
+import:
+  - ~/.config/alacritty/themes/custom-theme.yml
